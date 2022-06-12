@@ -10,4 +10,6 @@ How To Use
 4. Run python script
 5. It will fill up the excel with insights
 
-For more information/bug report you can contact me on devharsh [at] live [dot] in
+For more information/bug report you can contact me on devharsh [at] live [dot] in or com [at] puter [dot] tips.
+
+You may also find this repository useful for SEO -- https://github.com/com-puter-tips/Links-Extractor
