@@ -13,3 +13,31 @@ How To Use
 For more information/bug report you can contact me on devharsh [at] live [dot] in or com [at] puter [dot] tips.
 
 You may also find this repository useful for SEO -- https://github.com/com-puter-tips/Links-Extractor
+
+
+Cite
+---
+
+Either:
+
+```
+  @online{DevharshSEO,
+    author = {Devharsh Trivedi},
+    title = {SEO-Analysis Source Repository},
+    howpublished = {GitHub},
+    year = {2017},
+    url = {https://github.com/com-puter-tips/SEO-Analysis},
+  }
+```
+
+Or if you do not have @online support:
+
+```
+  @misc{DevharshSEO,
+    author = {Devharsh Trivedi},
+    title = {SEO-Analysis Source Repository},
+    howpublished = {GitHub},
+    year = {2017},
+    note = {\url{https://github.com/com-puter-tips/SEO-Analysis}},
+  }
+```
