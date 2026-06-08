@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+title: "SEO-Analysis"
+abstract: "A Python script to gain insights from a domain and a list of keywords by analysing page content in an Excel workbook."
+authors:
+  - given-names: "Devharsh"
+    family-names: "Trivedi"
+    name-suffix: "Ph.D., CISSP"
+    email: "devharsh.1592@gmail.com"
+    city: "Washington"
+    region: "D.C."
+    post-code: "20003"
+    country: "US"
+date-released: "2017-03-11"
+license: "GPL-3.0"
+repository-code: "https://github.com/com-puter-tips/SEO-Analysis"
+url: "https://github.com/com-puter-tips/SEO-Analysis"
+keywords:
+  - "seo"
+  - "seo-analysis"
+  - "keywords"
+  - "python"
+  - "web-scraping"

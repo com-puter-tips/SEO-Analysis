@@ -1,43 +1,43 @@
-![Travis-CI: build](https://travis-ci.org/devharsh/SEO-Analysis.svg?branch=master) [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
 # SEO-Analysis
-A Python script to gain some insights from a domain and list of keywords.
 
-How To Use
-1. Open Test.xlsx
-2. Put keywords and domains (one per row, you can put same domain multiple times with a different keyword in separate row)
-3. Save Test.xlsx
-4. Run python script
-5. It will fill up the excel with insights
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-For more information/bug report you can contact me on devharsh [at] live [dot] in or com [at] puter [dot] tips.
+A Python script to gain some insights from a domain and a list of keywords.
 
-You may also find this repository useful for SEO -- https://github.com/com-puter-tips/Links-Extractor
+## Description
 
+SEO-Analysis reads a list of domains and keywords from an Excel workbook, fetches each domain, checks the page content against the keywords, and writes the insights back into the workbook with colour-coded cells (red, yellow, white) indicating how well each keyword is represented.
 
-Cite
----
+## Requirements
 
-Either:
+- Python 3
+- Dependencies: `requests`, `beautifulsoup4`, `openpyxl`
+
+Install them with:
 
 ```
-  @online{DevharshSEO,
-    author = {Devharsh Trivedi},
-    title = {SEO-Analysis Source Repository},
-    howpublished = {GitHub},
-    year = {2017},
-    url = {https://github.com/com-puter-tips/SEO-Analysis},
-  }
+pip install -r requirements.txt
 ```
 
-Or if you do not have @online support:
+## Usage
+
+1. Open `Test.xlsx`.
+2. Add your keywords and domains, one pair per row. The same domain may appear on multiple rows with different keywords.
+3. Save `Test.xlsx`.
+4. Run the script:
 
 ```
-  @misc{DevharshSEO,
-    author = {Devharsh Trivedi},
-    title = {SEO-Analysis Source Repository},
-    howpublished = {GitHub},
-    year = {2017},
-    note = {\url{https://github.com/com-puter-tips/SEO-Analysis}},
-  }
+python3 SEO.py
 ```
+
+5. The workbook is updated in place with the analysis and colour-coded cells.
+
+You may also find the companion project useful: https://github.com/com-puter-tips/Links-Extractor
+
+## Citation
+
+If you use this software, please cite it using the metadata in [CITATION.cff](CITATION.cff).
+
+## License
+
+Distributed under the GNU General Public License v3.0. See [LICENSE](LICENSE).
