@@ -1,3 +1,25 @@
+Metadata-Version: 2.4
+Name: seo-analysis
+Version: 1.0.0
+Summary: Spreadsheet-driven on-page SEO analysis for a list of domains and keywords.
+Author: Devharsh Trivedi
+License: GPL-3.0-or-later
+Project-URL: Homepage, https://github.com/com-puter-tips/SEO-Analysis
+Project-URL: Repository, https://github.com/com-puter-tips/SEO-Analysis
+Keywords: seo,analysis,keywords,scraping,openpyxl,beautifulsoup
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4>=4.11
+Requires-Dist: lxml>=4.9
+Requires-Dist: openpyxl>=3.0
+Requires-Dist: requests>=2.28
+
 # SEO-Analysis
 
 Spreadsheet-driven on-page SEO analysis for a list of domains and keywords.

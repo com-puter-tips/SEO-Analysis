@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/seo_analysis/__init__.py
+src/seo_analysis/analyzer.py
+src/seo_analysis/cli.py
+src/seo_analysis.egg-info/PKG-INFO
+src/seo_analysis.egg-info/SOURCES.txt
+src/seo_analysis.egg-info/dependency_links.txt
+src/seo_analysis.egg-info/entry_points.txt
+src/seo_analysis.egg-info/requires.txt
+src/seo_analysis.egg-info/top_level.txt

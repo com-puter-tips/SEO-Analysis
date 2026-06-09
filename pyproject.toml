@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seo-analysis"
+version = "1.0.0"
+description = "Spreadsheet-driven on-page SEO analysis for a list of domains and keywords."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "GPL-3.0-or-later" }
+authors = [{ name = "Devharsh Trivedi" }]
+keywords = ["seo", "analysis", "keywords", "scraping", "openpyxl", "beautifulsoup"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+    "Topic :: Text Processing :: Markup :: HTML",
+]
+dependencies = [
+    "beautifulsoup4>=4.11",
+    "lxml>=4.9",
+    "openpyxl>=3.0",
+    "requests>=2.28",
+]
+
+[project.urls]
+Homepage = "https://github.com/com-puter-tips/SEO-Analysis"
+Repository = "https://github.com/com-puter-tips/SEO-Analysis"
+
+[project.scripts]
+seo-analysis = "seo_analysis.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
